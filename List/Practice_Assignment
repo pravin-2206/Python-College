@@ -1,0 +1,32 @@
+num=[10,20,30,50,11,90,44,69,99,33]
+print(f'Given List',num)
+
+# sum of last 4 element
+
+# print(sum(num[-4]))
+print(f'Sum of last 4 elements = ',num[-1]+num[-2]+num[-3]+num[-4])
+
+# max elements in list 
+# print(f'max elements',max(num))
+
+maxElement=max(num)
+print(f'max elements',maxElement)
+
+# min elements in list 
+# print(f'min elements',min(num))
+
+minElements=min(num)
+print(f'min elements',minElements)
+
+# difference of max and min 
+
+print(f'difference of max and min =',maxElement-minElements)
+
+# insert at 6th position
+
+print(f'old list',num)
+
+newList=num.insert(6,15)
+print(f'insert at 6th position ',newList)
+# print(f'new list ',num.insert(6,15))
+
