@@ -55,3 +55,18 @@ with open('file.txt', 'r') as f:
             count += 1
 
 print(count)
+
+# decorators is a function it takes another function as arguments and return function
+
+def myfunction(func):
+        def wrapper():
+                print('initial transaction')
+                func()
+                print('transaction complated') 
+        return wrapper
+@myfunction
+def hello():
+        print('execute all step of transactions')
+hello()
+           
+ 
