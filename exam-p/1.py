@@ -69,4 +69,24 @@ def hello():
         print('execute all step of transactions')
 hello()
            
+# anothe example
+print("new example \n")
+
+def secondfunction(fuc):
+        def mxf(*args,**kwargs):
+                print("Good morning")
+                fuc(*args,**kwargs)
+                print("Thank u for using this function")
+        return mxf
+@secondfunction
+def add(a,b):
+         print(a+b)
+add(10,30)
+# @secondfunction
+# def hello():
+#         print("hello guys!")
+# hello()
+# secondfunction(hello)()
+        
+
  
