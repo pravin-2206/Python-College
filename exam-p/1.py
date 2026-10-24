@@ -103,7 +103,7 @@ print("generators example")
 def creater():
         i=1
         while i<100:
-                yield i
+                yield i # yield keyword is used to generate one value 
                 i+=1
 print(creater())
 x=creater()
@@ -113,6 +113,7 @@ print(next(x))
 
 # if u wont all numbers then use list 
 print(list(x)) # but it start with 3 number 
+
 
 
 
