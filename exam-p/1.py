@@ -87,6 +87,36 @@ add(10,30)
 #         print("hello guys!")
 # hello()
 # secondfunction(hello)()
+
+# simple example 
+def create():
+        l=[]
+        count=1
+        while count<=100:
+                l.append(count)
+                count+=1
+        return l
+print(create())
+
+print("generators example")
+
+def creater():
+        i=1
+        while i<100:
+                yield i
+                i+=1
+print(creater())
+x=creater()
+print(x) # its create object 
+print(next(x)) # if u wont the value then next is used
+print(next(x))
+
+# if u wont all numbers then use list 
+print(list(x)) # but it start with 3 number 
+
+
+
+                
         
 
  
