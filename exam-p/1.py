@@ -124,6 +124,9 @@ s=square(5)
 print(next(s))
 print(next(s))
 print(list(s))
+
+for x in square(10):
+        print(x)
         
 
                 
