@@ -115,7 +115,16 @@ print(next(x))
 print(list(x)) # but it start with 3 number 
 
 
+print("Example of Square generators ")
 
+def square(x):
+        for i in range(1,x+1):
+                yield i*i
+s=square(5)
+print(next(s))
+print(next(s))
+print(list(s))
+        
 
                 
         
