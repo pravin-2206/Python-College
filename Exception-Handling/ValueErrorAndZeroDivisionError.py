@@ -6,4 +6,4 @@ try:
     print(re)
 
 except(ValueError,ZeroDivisionError):
-    pirnt("Invalind operation")
+    print("Invalind operation")
